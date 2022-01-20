@@ -8,12 +8,13 @@ body{
     width: 1036px;
     height: 1000px;
     background-color: orange;
+    font-size: 9px;
 }
 
 /*ho preferito inserire una misura fissa al container calcolando gandezza immagini (prese dal file) e aggiungendo le misure dei margini*/
 .container{
     width: 750px;
-    height: 740px;
+    height: 800px;
     background-color: rgba(255,255,255,1);
     margin: 50px auto;
 }
@@ -24,24 +25,30 @@ body{
     border: 1px solid rgb(0,0,0);
     float: left;
     margin: 10px;
+    margin-bottom: 30px;
+    position: relative;
 }
+
 
 .one{
     background-image: url(../img/1.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
 .two {
     background-image: url(../img/2.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
 .three{
     background-image: url(../img/3.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
 .four{
@@ -60,5 +67,24 @@ body{
     background-image: url(../img/6.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    backgr
+}
+
+.title{
+    font-size: 0.5rem;
+    position: absolute;
+    top: 350px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: .8em;
+    position: absolute;
+    top: 358px;
+}
+
+.price{
+    color: red;
+    font-size: .5rem;
+    position: absolute;
+    top: 365px;
 }
