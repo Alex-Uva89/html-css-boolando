@@ -11,9 +11,53 @@ body{
 }
 
 .container{
-    width: 800px;
-    height: 1000px;
+    width: 750px;
+    height: 740px;
     background-color: rgba(255,255,255,1);
     margin: 50px auto;
 }
 
+.box{
+    width: 230px;
+    height: 350px;
+    border: 1px solid rgb(0,0,0);
+    float: left;
+    margin: 10px;
+}
+
+.one{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.six{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backgr
+}
