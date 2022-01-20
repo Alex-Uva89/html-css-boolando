@@ -88,3 +88,33 @@ h2{
     position: absolute;
     top: 365px;
 }
+
+.price_sale{
+    color: rgba(0,0,0,0.5);
+    text-decoration:line-through;
+}
+
+.sale{
+    display: inline-block;
+    width: 25px;
+    height: 14px;
+    text-align: center;
+    background-color: rgb(255, 0, 76);
+    color: rgb(255,255,255);
+    padding: 3px;
+}
+
+.badge{
+    display: inline-block;
+    width: 55px;
+    height: 14px;
+    text-align: center;
+    background-color: rgb(30, 97, 60);
+    color: rgb(255,255,255);
+    padding: 3px;
+}
+
+.container_badges{
+    position: absolute;
+    top: 320px
+}
