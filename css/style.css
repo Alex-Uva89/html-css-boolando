@@ -10,6 +10,7 @@ body{
     background-color: orange;
 }
 
+/*ho preferito inserire una misura fissa al container calcolando gandezza immagini (prese dal file) e aggiungendo le misure dei margini*/
 .container{
     width: 750px;
     height: 740px;
