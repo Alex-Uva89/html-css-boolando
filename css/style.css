@@ -5,9 +5,9 @@
 }
 /*inserisco dimensioni e colore al body per rendere visibili le sezioni*/
 body{
-    width: 1036px;
-    height: 1000px;
-    background-color: orange;
+    width: auto;
+    height: auto;
+    /*background-color: orange;*/
     font-size: 9px;
 }
 
@@ -22,7 +22,7 @@ body{
 .box{
     width: 230px;
     height: 350px;
-    border: 1px solid rgb(0,0,0);
+    /*border: 1px solid rgb(0,0,0);*/
     float: left;
     margin: 10px;
     margin-bottom: 30px;
@@ -37,11 +37,19 @@ body{
     margin-top: 10px;
 }
 
+.one:hover{
+    background-image: url(../img/1b.webp);
+}
+
 .two {
     background-image: url(../img/2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
+}
+
+.two:hover{
+    background-image: url(../img/2b.webp);
 }
 
 .three{
@@ -51,10 +59,18 @@ body{
     margin-top: 10px;
 }
 
+.three:hover{
+    background-image: url(../img/3b.webp);
+}
+
 .four{
     background-image: url(../img/4.webp);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.four:hover{
+    background-image: url(../img/4b.webp);
 }
 
 .five{
@@ -63,10 +79,18 @@ body{
     background-repeat: no-repeat;
 }
 
+.five:hover{
+    background-image: url(../img/5b.webp);
+}
+
 .six{
     background-image: url(../img/6.webp);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.six:hover{
+    background-image: url(../img/6b.webp);
 }
 
 .title{
@@ -117,4 +141,24 @@ h2{
 .container_badges{
     position: absolute;
     top: 320px
+}
+
+.container_heart{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 210px;
+}
+
+.heart{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.container_heart:hover{
+    color: rgb(255, 0, 0);
 }
